@@ -25,6 +25,7 @@ A simple article web scraper with integrated DRF API to access scraped data.
 
    ```bash
    git clone https://github.com/AWPyc/article_scraper.git
+   cd article_scraper
    ``` 
 
 2. Copy example environment and adjust values:
@@ -65,9 +66,9 @@ A simple article web scraper with integrated DRF API to access scraped data.
 
 
 6. Scraper usage:
-   * From root directory
-      ```bash
-      python3 manage.py scrape_articles
-     ```
+   * Enter docker container:
+     ```docker exec -it scraper-backend bash```
+   * Run command:
+     ```python3 manage.py scrape_articles```
 
 ---
