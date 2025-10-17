@@ -67,8 +67,13 @@ A simple article web scraper with integrated DRF API to access scraped data.
 
 6. Scraper usage:
    * Enter docker container:
-     ```docker exec -it scraper-backend bash```
+     ```bash
+     docker exec -it scraper-backend bash
+     ```
    * Run command:
-     ```python3 manage.py scrape_articles```
+     ```bash
+     python3 manage.py scrape_articles
+     ```
 
 ---
+
